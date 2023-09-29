@@ -1,0 +1,158 @@
+*{
+  margin: 0; /*removendo margem dos objetos*/
+  box-sizing: border-box; /*removendo borda da caixa*/
+}
+
+:root{
+  font-size: 62.5%; /*Tamanho padrão para 10px*/ 
+  --shadow: 0 .5rem 1rem rgba(0,0,0,.05); 
+  --primary-color: hsla(238, 73%, 40%, 70%);
+}
+
+.android-large-1,
+.android-large-1 * {
+  box-sizing: border-box;
+}
+.android-large-1 {
+  background: linear-gradient(
+    180deg,
+    rgba(200, 235, 255, 1) 0%,
+    rgba(237, 248, 255, 1) 100%
+  );
+  width: 360px;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+}
+.consulte-seus-honor-rios {
+  color: #8f8f8f;
+  text-align: center;
+  font: 500 18px/12px "Roboto", sans-serif;
+  position: absolute;
+  left: calc(50% - 104px);
+  top: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-ses-pe-2023-colorida-azul-1 {
+  width: 231px;
+  height: 92px;
+  position: absolute;
+  left: 65px;
+  top: 140px;
+}
+.input-default {
+  width: 284px;
+  height: 128px;
+  position: absolute;
+  left: 38px;
+  top: 400px;
+}
+
+/* .button {
+  width: 284px;
+  height: 55.1px;
+  position: relative;
+  left: 3.9REM;
+  /* top: 477px; 
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
+} */
+/* .consultar {
+  background: #ffffff;
+  border-radius: 10px;
+  width: 284px;
+  height: 55.1px;
+  padding: 25px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+} */
+.consultar {
+  color: #8f8f8f;
+  text-align: center;
+  font: 500 13px/22px "roboto", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  padding: 9%;
+  border-radius: 10px;
+  border: none;
+  background: #ffffff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  left: 0px;
+  top: 80px;
+  width: 284px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+} 
+
+.consultar:hover{
+  transform: scale(1.02);
+  transition: 0.3s;
+} 
+
+.consultar:active{
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.1);
+  transition: 0.1s;
+} 
+
+.input {
+  width: 284px;
+  height: 65.73px;
+  position: absolute;
+  left: 39px;
+  top: 400px;
+}
+
+.cpf {
+  color: #8f8f8f;
+  background-color: #daf2ff;
+  text-align: left;
+  font: 500 11px/22px "Roboto", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 21.26px;
+  top: 0px;
+  width: 21.26px;
+  height: 18.65px;
+  z-index: 10;
+  padding-left: 5px;
+  padding-right: 25px;
+}
+
+
+#cpfInput {
+  background: none;
+  border-radius: 10px;
+  border-style: solid;
+  padding-left: 20px;
+  border-color: rgba(143, 143, 143, 0.5);
+  border-width: 2px;
+  width: 284px;
+  height: 55.1px;
+  position: absolute;
+  left: 0px;
+  top: 10.63px;
+  
+}
+
+.rectangle-3 {
+  background: #daf2ff;
+  width: 23px;
+  height: 6px;
+  position: absolute;
+  left: 20px;
+  top: 9px;
+}
+
+._123-456-789-00 {
+  color: #8f8f8f;
+  text-align: left;
+  font: 500 15px/22px "Roboto", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 13px;
+  top: 27px;
+}

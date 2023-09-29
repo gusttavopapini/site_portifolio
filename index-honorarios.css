@@ -1,0 +1,96 @@
+*{
+  margin: 0; /*removendo margem dos objetos*/
+  box-sizing: border-box; /*removendo borda da caixa*/
+}
+
+:root{
+  font-size: 62.5%; /*Tamanho padrão para 10px*/ 
+  --shadow: 0 .5rem 1rem rgba(0,0,0,.05); 
+  --primary-color: hsla(238, 73%, 40%, 70%);
+}
+
+
+.android-large-1 {
+  background: linear-gradient(
+    180deg,
+    rgba(200, 235, 255, 1) 0%,
+    rgba(237, 248, 255, 1) 100%
+  );
+  width: 360px;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+/* .backfroundForm {
+  width: 292px;
+  height: 633px;
+  background: white;
+  border-radius: 10px;
+  position: absolute;
+  margin: 130px 0px;
+  padding: 10px;
+}
+
+.arrow {
+    position: top !important;
+    margin: 30px;
+    display: flex;
+}
+
+.seus-honorarios {
+    position: absolute;
+    text-align: center;
+    margin-top: 33px;
+    color: #8f8f8f;
+    font: 500 18px/12px "Roboto", sans-serif;
+    left: calc(50% - 104px);
+}
+
+.imgSes {
+  width: 30%;
+  position: absolute;
+}
+
+.imgENFSUS {
+  width: 30%;
+  position: absolute;
+  display:;
+}
+
+.containerImgs {
+  
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+}
+
+
+
+.title {
+    position: absolute;
+    color: #8f8f8f;
+    font: 500 16px "Roboto", sans-serif;
+    margin: 13px 20px 0px 5px;
+}
+
+.ver {
+  color: #fff;
+  font: 500 18px/12px "Roboto", sans-serif;
+  float: right;
+  margin:12px 15px;
+  border:none;
+  background: f8f8f8;
+  border-radius: 5px;
+  padding:5px 7px;
+}
+
+.ver:hover {
+  background: #a1a1a1;
+} */
+
